@@ -30,6 +30,7 @@ pipeline {
       }
       steps {
         echo "TODO - build and push image"
+        sh "echo 'hi'"
       }
     }
   }
